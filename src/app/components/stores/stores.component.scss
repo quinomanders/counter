@@ -45,12 +45,12 @@ input:focus, textarea {
 
 .store-name {
   display: inline-block;
-  font-weight: 600;
+  font-weight: 800;
   cursor: pointer;
+  outline: none;
 
   &:hover {
-    color: #233051;
-    opacity: 0.8;
+    opacity: 0.6;
   }
 }
 
