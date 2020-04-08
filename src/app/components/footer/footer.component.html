@@ -1,17 +1,18 @@
-<div id="footer">
-  <div [ngClass]="results || counter || stores ? 'ibm-bar-invert' : 'ibm-bar'">
-    <div [ngClass]="results || counter || stores ? 'ibm-text-invert' : 'ibm-text'">By</div>
-    <img [ngStyle]="{'filter': results || counter || stores  ? 'invert(1)' : ''}"
+<div
+  id="footer">
+  <div [ngClass]="(results || counter || stores) ? 'ibm-bar-invert' : 'ibm-bar'">
+    <div [ngClass]="(results || counter || stores) ? 'ibm-text-invert' : 'ibm-text'">By</div>
+    <img [ngStyle]="{'filter': (results || counter || stores)  ? 'invert(1)' : ''}"
          class="ibm-logo"
          src="../../../assets/images/ibm-logo-white.png"/>
   </div>
   <div class="government"
-       [ngClass]="results || counter || stores ? 'government-invert' : ''">
+       [ngClass]="(results || counter || stores) ? 'government-invert' : ''">
     <a href="https://www.rivm.nl/"
        class="link-rivm"
-       [ngClass]="results || counter || stores ? 'link-rivm-invert' : ''">My Government Rules</a>
+       [ngClass]="(results || counter || stores) ? 'link-rivm-invert' : ''">My Government Rules</a>
   </div>
 
   <div class="bottom-bar"
-       [ngClass]="results || counter || stores ? 'bottom-bar-invert' : ''"></div>
+       [ngClass]="(results || counter || stores) ? 'bottom-bar-invert' : ''"></div>
 </div>
