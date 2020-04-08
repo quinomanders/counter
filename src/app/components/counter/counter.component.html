@@ -1,0 +1,30 @@
+<div id="page-container">
+<app-header></app-header>
+  <div class="container">
+    <div class="text">
+      People in JUMBO Oosterstraat
+    </div>
+
+    <div class="customer-number"
+        [ngClass]="count > maxCount ? 'exceeded' : ''">
+      {{count}}
+    </div>
+    <div class="max-count">Maximum {{maxCount}}</div>
+    <div class="blocks">
+      <div *ngIf="count > 0"
+           class="count-block plus"
+           (click)="reduceNumber()">
+        <div class="icon">-</div>
+      </div>
+      <div class="count-block"
+           (click)="addNumber()">
+        <div class="icon">+</div>
+      </div>
+    </div>
+    <div class="manage-btn">
+      <button type="submit" routerLink="/stores">Manage stores</button>
+    </div>
+  </div>
+  <app-footer></app-footer>
+</div>
+

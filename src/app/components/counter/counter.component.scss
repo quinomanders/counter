@@ -1,0 +1,86 @@
+#page-container {
+  position: relative;
+  background-color: #fff;
+  min-height: calc(100vh - 100px);
+}
+
+.container {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.customer-number {
+  font-size: 86px;
+  padding-top: 20px;
+  color: #233051;
+}
+
+.text {
+  font-size: 24px;
+  opacity: 0.8;
+  padding-top: 40px;
+}
+
+.exceeded {
+  color: red !important;
+}
+
+.icon {
+  color: #fff;
+  font-size: 45px;
+}
+
+.count-block {
+  height: 70px;
+  width: 175px;
+  background-color: #233051;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.max-count {
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-top: -10px;
+}
+
+.max {
+  margin-bottom: 30px;
+}
+
+.plus {
+  margin-right: 20px;
+}
+
+@media (max-width: 449px) {
+  .count-block {
+    width: 150px;
+  }
+}
+
+@media (max-width: 349px) {
+  .count-block {
+    width: 100px;
+  }
+}
+
+.manage-btn {
+  text-align: center;
+}
+
+button {
+  background-color: #0e54dd;
+  width: 200px;
+  color: white;
+  padding: 14px 20px;
+  cursor: pointer;
+  margin-top: 40px;
+  border-radius: 25px;
+  border: 1px solid #fff;
+  outline: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,68 @@
+.login-btn {
+  margin-top: -10px;
+}
+
+.popup:after {
+  content: '\2807';
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 200px;
+  margin-left: -116px;
+  margin-top: 85px;
+  background-color: #233051;
+  border-radius: 25px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+}
+
+.popup .add-border {
+  border: 1px solid #233051 !important;
+  border-radius: 21px;
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+  visibility: visible;
+}
+
+.register {
+  height: 40px;
+  line-height: 40px;
+
+  &:hover {
+    background-color: #fff;
+    color: #233051;
+    border-radius: 20px;
+  }
+}
+
+.login {
+  height: 40px;
+  line-height: 40px;
+
+  &:hover {
+    color: #233051;
+    border: 1px solid #233051;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+}

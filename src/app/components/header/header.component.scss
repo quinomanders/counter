@@ -1,0 +1,39 @@
+.brand {
+  float: left;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.login {
+  float: right;
+  display: inline-block;
+  margin-right: 50px;
+  padding-top: 25px;
+}
+
+.title {
+  margin-left: 50px;
+  padding-top: 25px;
+}
+
+.subtitle {
+  font-weight: 200;
+  margin-left: 50px;
+}
+
+.toolbar {
+  height: 100px;
+  align-items: center;
+  border-bottom-left-radius: 40px;
+  border-bottom: 1px solid #fff;
+  border-bottom-right-radius: 40px;
+  background-color: #233051;
+  color: white;
+  font-weight: 600;
+}
+
+.toolbar img {
+  margin: 0 16px;
+}

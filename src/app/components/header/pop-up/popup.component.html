@@ -1,0 +1,15 @@
+<div class="login-btn">
+  <div class="popup"
+       (click)="togglePopUp()">
+    <span class="popuptext" id="popup"
+          [ngClass]="results || counter || stores ? 'add-border' : ''">
+     <div class="login"
+          *ngIf="!(register || counter || stores); else logout"
+          (click)="route()">Login</div>
+      <ng-template #logout>
+         <div class="login"
+              (click)="route()">Logout</div>
+      </ng-template>
+    </span>
+  </div>
+</div>

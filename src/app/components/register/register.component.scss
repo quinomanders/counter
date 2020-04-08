@@ -1,0 +1,91 @@
+#page-container {
+  position: relative;
+  background-color: #233051;
+  min-height: 100vh;
+}
+
+.text-block {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.store-info {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.user-blocks {
+  text-align: right;
+}
+
+.address-blocks {
+  text-align: left;
+}
+
+.text {
+  color: #fff;
+  font-size: 24px;
+  opacity: 0.8;
+  padding-top: 40px;
+}
+
+input[type=text] {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 25px;
+  outline: none !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.register-btn {
+  text-align: center;
+}
+
+button {
+  background-color: #0e54dd;
+  width: 300px;
+  color: white;
+  padding: 14px 20px;
+  cursor: pointer;
+  margin-top: 40px;
+  border-radius: 25px;
+  border: 1px solid #fff;
+  outline: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .user-blocks, .address-blocks {
+    text-align: center;
+  }
+
+  button, input[type=text] {
+    width: 200px;
+    margin-top: 10px;
+    margin: 6px 0;
+  }
+
+  .register-btn {
+    text-align: center;
+  }
+
+  .store-info {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .text {
+    font-size: 20px;
+    padding-top: 30px;
+  }
+  button, input[type=text] {
+    margin: 3px 0;
+  }
+}

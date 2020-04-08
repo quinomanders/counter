@@ -1,0 +1,88 @@
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.government {
+  text-align: center;
+  line-height: 70px;
+  height: 70px;
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.government-invert {
+  background-color: #233051 !important;
+}
+
+.link-rivm {
+  color: #233051;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+
+  &:hover {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.5;
+  }
+}
+
+.link-rivm-invert {
+  color: #fff !important;
+}
+
+.ibm-bar-invert {
+  text-align: center;
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+
+.ibm-bar {
+  background-color: #233051;
+  text-align: center;
+  height: 100px;
+  padding-bottom: 40px;
+}
+
+.ibm-text {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 200;
+  color: #fff;
+}
+
+.ibm-text-invert {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 200;
+  color: #000;
+}
+
+.ibm-logo {
+  width: 100px;
+}
+
+@media (max-width: 350px) {
+  .ibm-bar {
+    background-color: transparent;
+  }
+  .ibm-logo {
+    display: none;
+  }
+  .ibm-text, .ibm-text-invert {
+    display: none;
+  }
+}
+
+.bottom-bar {
+  height: 40px;
+  background-color: #233051;
+}
+
+.bottom-bar-invert {
+  background-color: #fff !important;
+}
