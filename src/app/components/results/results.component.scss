@@ -107,9 +107,3 @@ input:focus, textarea {
     margin-top: 10px;
   }
 }
-
-@media (max-width: 420px) {
-  #page-container {
-    min-height: calc(100vh - 200px);
-  }
-}
