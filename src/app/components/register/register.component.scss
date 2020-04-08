@@ -1,7 +1,7 @@
 #page-container {
   position: relative;
   background-color: #233051;
-  min-height: 100vh;
+  min-height: calc(100vh - 100px);
 }
 
 .text-block {
@@ -77,6 +77,10 @@ button:hover {
 
   .store-info {
     margin-top: 20px;
+  }
+
+  #page-container {
+    min-height: 100vh;
   }
 }
 
