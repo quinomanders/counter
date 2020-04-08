@@ -21,6 +21,10 @@ export class FooterComponent implements OnInit {
     console.log('location', window.location.href);
     console.log('location 2', this.router.url);
 
+    if (this.router.url === '/login') {
+      console.log('aardbei');
+    }
+
     if ((window.location.href).includes('results')) {
       this.results = true;
     }
