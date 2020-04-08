@@ -29,4 +29,7 @@
     font-size: 22px;
     margin-top: 90px;
   }
+  #page-container {
+    min-height: calc(100vh - 200px);
+  }
 }

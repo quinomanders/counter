@@ -125,3 +125,9 @@ button {
 button:hover {
   opacity: 0.8;
 }
+
+@media (max-width: 400px) {
+  #page-container {
+    min-height: calc(100vh - 200px);
+  }
+}

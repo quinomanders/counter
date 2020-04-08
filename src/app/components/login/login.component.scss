@@ -44,4 +44,8 @@ button:hover {
   button {
     width: 200px;
   }
+
+  #page-container {
+    min-height: calc(100vh - 200px);
+  }
 }
