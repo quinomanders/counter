@@ -20,17 +20,20 @@ export class PopUpComponent implements OnInit {
     this.results = false;
     this.stores = false;
 
-    if ((window.location.href).includes('register')) {
-      this.register = true;
+    if (this.router.url === '/counter') {
+      this.counter = true;
     }
-    if ((window.location.href).includes('results')) {
+
+    if (this.router.url === '/results') {
       this.results = true;
     }
-    if ((window.location.href).includes('stores')) {
+
+    if (this.router.url === '/stores') {
       this.stores = true;
     }
-    if ((window.location.href).includes('counter')) {
-      this.counter = true;
+
+    if (this.router.url === '/register') {
+      this.register = true;
     }
   }
 

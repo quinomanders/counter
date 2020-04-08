@@ -18,21 +18,16 @@ export class FooterComponent implements OnInit {
     this.results = false;
     this.stores = false;
 
-    console.log('location', window.location.href);
-    console.log('location 2', this.router.url);
-
-    if (this.router.url === '/login') {
-      console.log('aardbei');
+    if (this.router.url === '/counter') {
+      this.counter = true;
     }
 
-    if ((window.location.href).includes('results')) {
+    if (this.router.url === '/results') {
       this.results = true;
     }
-    if ((window.location.href).includes('stores')) {
+
+    if (this.router.url === '/stores') {
       this.stores = true;
-    }
-    if ((window.location.href).includes('counter')) {
-      this.counter = true;
     }
   }
 }
