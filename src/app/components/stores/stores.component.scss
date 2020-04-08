@@ -46,6 +46,7 @@ input:focus, textarea {
 .store-name {
   display: inline-block;
   font-weight: 800;
+  font-size: 16px;
   cursor: pointer;
   outline: none;
 
@@ -55,12 +56,14 @@ input:focus, textarea {
 }
 
 .store-name2 {
+  font-size: 16px;
   display: inline-block;
   font-weight: 800;
 }
 
 .current-number {
   float: right;
+  font-size: 16px;
   display: inline-block;
 }
 
