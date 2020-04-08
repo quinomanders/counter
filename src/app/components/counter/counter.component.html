@@ -4,7 +4,6 @@
     <div class="text">
       People in JUMBO Oosterstraat
     </div>
-
     <div class="customer-number"
         [ngClass]="count > maxCount ? 'exceeded' : ''">
       {{count}}
@@ -22,7 +21,8 @@
       </div>
     </div>
     <div class="manage-btn">
-      <button type="submit" routerLink="/stores">Manage stores</button>
+      <button type="submit" routerLink="/stores">
+        <span style="font-size: 20px; margin-right: 10px;">←</span> Manage stores</button>
     </div>
   </div>
   <app-footer></app-footer>
