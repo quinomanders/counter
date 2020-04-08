@@ -7,14 +7,19 @@ import {Router} from '@angular/router';
   styleUrls: ['./popup.component.scss']
 })
 export class PopUpComponent implements OnInit {
-  public counter = false;
-  public results = false;
-  public stores = false;
-  public register = false;
+  public counter: boolean;
+  public results: boolean;
+  public stores: boolean;
+  public register: boolean;
 
   public constructor(private router: Router) { }
 
   public ngOnInit(): void {
+    this.counter = false;
+    this.register = false;
+    this.results = false;
+    this.stores = false;
+
     if ((window.location.href).includes('register')) {
       this.register = true;
     }
