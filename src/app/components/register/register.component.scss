@@ -93,3 +93,11 @@ button:hover {
     margin: 3px 0;
   }
 }
+
+@media (max-width: 420px) {
+  #page-container {
+    min-height: 87%;
+  }
+}
+
+

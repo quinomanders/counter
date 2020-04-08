@@ -45,3 +45,9 @@ button:hover {
     width: 200px;
   }
 }
+
+@media (max-width: 420px) {
+  #page-container {
+    min-height: 87%;
+  }
+}
